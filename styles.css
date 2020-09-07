@@ -1,0 +1,356 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: dunbar-tall
+}
+
+p {
+  font-family: dunbar-text
+}
+
+header, section {
+  overflow: hidden;
+}
+
+header a {
+  font-family: dunbar-text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.3125rem;
+  text-align: right;
+  color: #fff;
+  opacity: 0.7;
+}
+
+header {
+  background-image: url("images/heroimage-dp 1.png");
+  background-position: center;
+  height: 62.5rem;
+}
+
+header .nav-item:last-child {
+  padding-right: 5rem;
+}
+
+header .nav-item {
+  padding: 0.5rem;
+}
+
+header .navbar-brand {
+  padding-left: 4rem;
+}
+
+header .nav-link:hover {
+  color: #F8D180;
+}
+
+header .row .col {
+  padding: 25vmin;
+}
+
+header .container h1 {
+  padding: 0 12rem;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 3.875rem;
+  text-align: center;
+  color: #fff;
+}
+
+header .container p {
+  padding: 0 14rem;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.3125rem;
+  line-height: 133%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+header .container button {
+  background: #EB674F;
+  border: 0.0625rem solid #EB674F;
+  box-sizing: border-box;
+  border-radius: 0.4375rem;
+  width: 11.8125rem;
+  height: 2.5rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 125%;
+  text-align: center;
+  color: #711504;
+}
+
+@media screen and (max-width: 992px) {
+  header .container h1 {
+    padding: 0;
+  }
+
+  header .container p {
+    padding: 0;
+  }
+
+  header .navbar-brand {
+    padding-left: 2rem;
+  }
+
+  header .nav-item:last-child {
+    padding-right: 0.5rem;
+  }
+}
+
+/* section-1 */
+.section-1 {
+  background: linear-gradient(180deg, #171A3D 0%, #252745 100%);
+}
+
+section .cover h1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3rem;
+  line-height: 3.875rem;
+  color: #EAEAEA;
+  padding: 5vmin;
+}
+
+.immersive-numbers {
+  background: #252745;
+  border-radius: 0.625rem;
+  z-index: 1;
+  width: 90%;
+}
+
+.numbers {
+  padding: 2rem;
+}
+
+.rect img {
+  width: 6.5rem;
+  height: 6.25rem;
+  margin-bottom: 2rem;
+}
+
+.rect h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.5rem;
+  line-height: 100%;
+  text-align: center;
+  color: #EAEAEA;
+}
+
+.rect h3 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 150%;
+  text-align: center;
+  color: #B6B6B6;
+}
+
+.rect p {
+  width: 60%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 150%;
+  text-align: center;
+  color: #B6B6B6;
+  margin-bottom: 4rem;
+  margin-left: 4rem;
+}
+
+/* section-2 */
+.section-2 {
+  z-index: 0;
+  background-image: url("images/immersiveinsiders 1.png");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 69rem;
+  overflow: hidden;
+}
+
+.products h1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.5rem;
+  line-height: 3.25rem;
+  color: #FFFFFF;
+  padding: 8vmin 0 8vmin 8vmin;
+}
+
+.products .cards .card {
+  width: 22.125rem;
+  margin: 3rem;
+  background-color: #1C00ff00;
+  border: 0.1875rem solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 0.625rem;
+}
+
+.products .cards .card:hover {
+  background-color: #fff;
+  box-sizing: border-box;
+  border-radius: 0.625rem;
+  color: black;
+}
+
+.cards div {
+  padding: 0;
+  margin: 0;
+}
+
+.cards .title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 117%;
+  color: #FFFFFF;
+  padding: 2rem 2rem 0.5rem;
+}
+
+.card .title:hover {
+  color: black;
+}
+
+.card .card-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 150%;
+  color: #FFFFFF;
+  padding: 0 2rem 0.5rem;
+}
+
+.card .card-text:hover {
+  color: black;
+}
+
+/* Section-3 */
+.section-3 {
+  background: linear-gradient(180deg, #171A3D 0%, #252745 100%);
+  padding: 8rem;
+}
+
+section h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.5rem;
+  line-height: 114%;
+  text-align: center;
+  color: #EAEAEA;
+}
+
+.section-3 #carouselExampleControls {
+  margin-top: 4rem;
+  background: #252745;
+  border-radius: 0.625rem;
+  background-position: center;
+  width: 90%;
+}
+
+/* Carousel */
+.carousel-inner>.carousel-item>img {
+  margin: 2rem auto;
+}
+
+/* Section-4 */
+.section-4 {
+  background-image: url("images/dp footer.png");
+  background-position: center;
+  background-size: cover;
+  height: 42rem;
+}
+
+.section-4 .col-md-8 {
+  margin-top: 15vmin;
+}
+
+.section-4 h1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 125%;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+.section-4 p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.3125rem;
+  line-height: 133%;
+  color: #FFFFFF;
+}
+
+.section-4 button {
+  background: #EB674F;
+  border: 0.0625rem solid #EB674F;
+  box-sizing: border-box;
+  border-radius: 0.4375rem;
+  width: 11.8125rem;
+  height: 2.5rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 125%;
+  text-align: center;
+  color: #711504;
+}
+
+/* section-5 */
+.section-5 {
+  background: #252745;
+  background-position: center;
+  border-radius: 0.4375rem;
+  width: 90%;
+}
+
+.section-5 h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.3125rem;
+  line-height: 1.6875rem;
+  color: #FFFFFF;
+  text-align: left;
+  padding: 1rem;
+}
+
+.section-5 p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.3125rem;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+.section-5 .col-lg-6{
+  padding: 2rem;
+}
+
+.colored{
+  color: #F8D180;
+  padding-left: 0.5rem;
+}
+
+/* Footer */
+footer {
+  background: #141632;
+  color: #FFFFFF;
+}
+
+footer h6 {
+  display: inline-block;
+  margin: 6rem 1rem 2rem;
+}
